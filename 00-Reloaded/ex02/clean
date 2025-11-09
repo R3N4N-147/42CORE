@@ -1,0 +1,7 @@
+find . -type f \( -name "*~" -o -name "#*#" \)
+// . mean starts the search in the current directory
+// -type f mean restrict the search to only files, not directory
+// \( ... )\ is udes here to group a condition
+// -name "*~" ends with ~
+// -o mean the logical operator
+// -name "#*#"  start and end with # 
